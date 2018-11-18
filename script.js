@@ -15,7 +15,6 @@ this.Push(arguments[i]);
 } 
 
 Push(...values){ 
-
 for(var i = 0; i < values.length; ++i) { 
 var node = new Node(values[i]); 
 if(this.head == null){ 
